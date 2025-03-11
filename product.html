@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRODUCT</title>
+    <link rel="stylesheet" href="ADMIN.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="left-nav">
+            <img src="logo\logo-white.svg" alt="Logo">
+        </div>
+        <div class="right-nav"></div>
+            <a href="#transaction">Transaction</a>
+            <a href="user.html">User</a>
+            <a href="product.html">Product</a>
+            <a href="insights.html">Insights</a>
+        </div>
+    </div>
+    <!-- <div class="navbar-SUB">
+        <a href="#subpage1">ADD</a>
+        <a href="#subpage2">CHECK</a>
+    </div> -->
+    <div class="SECTION">
+        <div class="CONTAINER">
+            <h1>ADD PRODUCT</h1>
+            
+            <div class="CONTAINER-input">
+                <label for="category">SELECT CATEGORY</label>
+                <select id="category" name="category">
+                    <option value="laptops">Laptops and Computers</option>
+                    <option value="phones">Smartphones and Tablets</option>
+                    <option value="accessories">Audio and Headphones</option>
+                    <option value="accessories">Cameras and Photography</option>
+                    <option value="accessories">Gaming Consoles and Accessories</option>
+                    <option value="accessories">Smart Home Devices</option>
+                    <option value="accessories">Wearable Technology</option>
+                    <option value="accessories">Computer Components and Accessories</option>
+                    <option value="accessories">Networking and Internet Devices</option>
+                    <option value="accessories">TVs and Home Entertainment Systems</option>
+            </select>
+            </div>
+            
+            <div class="CONTAINER-input">
+                <label for="product-name">PRODUCT NAME</label>
+                <input type="text" id="product-name" name="product-name">
+            </div>
+            
+            <div class="CONTAINER-input">
+                <label for="price">PRICE</label>
+                <input type="number" id="price" name="price" step="0.01" min="0">
+            </div>
+            <br>
+            <button class="purple-button">ADD</button>
+        </div>
+    </div>
+    <br>
+    <div class="SECTION">
+        <div class="CONTAINER">
+            <h1>CHECK STOCK</h1>
+            <div class="CONTAINER-input">
+                <label for="category">SELECT CATEGORY</label>
+                <select id="category" name="category">
+                    <option value="laptops">Laptops and Computers</option>
+                    <option value="phones">Smartphones and Tablets</option>
+                    <option value="accessories">Audio and Headphones</option>
+                    <option value="accessories">Cameras and Photography</option>
+                    <option value="accessories">Gaming Consoles and Accessories</option>
+                    <option value="accessories">Smart Home Devices</option>
+                    <option value="accessories">Wearable Technology</option>
+                    <option value="accessories">Computer Components and Accessories</option>
+                    <option value="accessories">Networking and Internet Devices</option>
+                    <option value="accessories">TVs and Home Entertainment Systems</option>
+            </select>
+            </div>
+            <div class="CONTAINER-input">
+                <label for="category">SELECT PRODUCT</label>
+                <select id="category" name="category">
+                    <option>15.6-inch Full HD Laptop</option>
+                </select>
+            </div>
+            <br>
+            <button class="purple-button">CHECK</button>
+        </div>
+
+</body>
+</html>

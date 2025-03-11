@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+.koulen-regular {
+    font-family: "Koulen", sans-serif;
+  }
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+.dm-sans-regular {
+    font-family: "DM Sans", sans-serif;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #53118F;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem 10rem;
+    height: 4rem;
+    z-index: 1000;
+}
+.left-nav {
+    height: 100%; 
+   display: flex;
+    margin-right: auto; 
+}
+.left-nav img {
+    height: 100%; 
+    width: auto; 
+    display: block;
+}
+.right-nav {
+    margin-left: auto; 
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+    font-family: "Koulen", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.navbar a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+/* ini gak kepake, katanya scroll aja tp gk aku hapus */
+.navbar-SUB{
+    display: flex;
+    gap: 1rem;
+    margin-right: auto; 
+    margin-top: 1rem;
+    background-color: #ffffff;
+    padding: 1rem 10rem;
+    height: 2rem;
+    align-items: center;
+}
+.navbar-SUB a {
+    display: inline-block;
+    background-color: black; /* Black background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 0rem 3rem; /* Adjust padding */
+    text-decoration: none;
+    font-family: "Koulen", sans-serif;
+    font-size: 1.5rem;
+    border-radius: 1.875rem; 
+}
+.navbar-SUB a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+/* sampai sini */
+h1 {
+    font-family: "Koulen", sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    color: #53118F;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.SECTION {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* background-color: deeppink;  */
+}
+
+.CONTAINER {
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    /* background-color: chartreuse; */
+} 
+
+.CONTAINER-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem 0;
+    width: 100%;
+     /* background-color: aqua;  */
+}
+
+label {
+    font-family: 'Koulen', sans-serif;
+    font-size: 2.25rem; /* 36px → 2.25rem */
+    display: block; 
+    margin-bottom: 0rem; /* 0px → 0rem (unchanged) */
+    margin-left: 1.5rem; /* 60px → 3.75rem */
+}
+
+
+input{
+    border: 0.125rem solid purple;
+    padding: 0.625rem 1.875rem;
+    width: calc(100% - 3.75rem);
+    border-radius: 1.875rem;
+    font-size: 1.25rem;
+    font-family: 'DM Sans', sans-serif;
+    outline: none;
+}
+
+select {
+    width: 100%;
+    padding: 0.75rem;
+    border : none;
+    border-radius: 1.875rem;
+    font-size: 1.25rem;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #53118F;
+    height: auto;
+    color: #ffffff;
+}
+
+.purple-button {
+    background-color: #53118F;
+    display: block;
+    margin: 0.625rem auto; 
+    color: white;
+    padding: 0rem 3.75rem; 
+    border: none;
+    border-radius: 1.875rem; 
+    cursor: pointer;
+    font-size: 2rem; 
+    font-family: 'Koulen', cursive;
+}
+
+
+
