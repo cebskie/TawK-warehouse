@@ -1,0 +1,88 @@
+        body {
+            margin-left: 10rem;   
+            margin-right: 10rem;   
+        }
+        h1 {
+            font-size: 4rem; /* 80px → 5rem */
+            font-family: 'Koulen', cursive;
+            margin-bottom: 0.625rem; /* 10px → 0.625rem */
+        }
+        
+        h2 {
+            font-size: 2.25rem; /* 36px → 2.25rem */
+            font-family: 'Koulen', cursive;
+        }
+        
+        h3 {
+            font-size: 2rem; /* 32px → 2rem */
+            font-family: 'Koulen', cursive;
+        }
+        
+        p {
+            font-size: 1.5rem; /* 24px → 1.5rem */
+            font-family: 'DM Sans', sans-serif;
+            margin-top: 0rem; /* 0px → 0rem (unchanged) */
+            margin: 0 1rem;
+        }
+        
+        .container {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+        .left {
+            flex: 1; /* Takes 50% width */
+            /* background-color: lightblue; */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center input field horizontally */
+            justify-content: center; /* Center input field vertically */
+        }
+        .right-center{
+            flex: 1; /* Takes 50% width */
+            /* background-color: lightcoral; */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center input field horizontally */
+            justify-content: center; /* Center input field vertically */
+        }
+        .right-left{
+            flex: 1; /* Takes 50% width */
+            /* background-color: lightcoral; */
+            display: flex;
+            flex-direction: column;
+            align-items: left; /* left input field horizontally */
+            justify-content: center; /* Center input field vertically */
+        }
+        .left img {
+            width: 100%;
+            height: auto;
+        }
+        .purple-button {
+            background-color: #53118F;
+            display: block;
+            margin: 0.625rem auto; /* 10px → 0.625rem */
+            color: white;
+            padding: 0rem 3.75rem; /* 0px top/bottom, 60px (3.75rem) left/right */
+            border: none;
+            border-radius: 1.875rem; /* 30px → 1.875rem */
+            cursor: pointer;
+            font-size: 2rem; /* 32px → 2rem */
+            font-family: 'Koulen', cursive;
+        }
+        input {
+            border: 0.125rem solid purple; /* 2px → 0.125rem */
+            padding: 0.625rem 1.875rem ; /* 10px → 0.625rem */
+            margin: 0 1.875rem; /* 30px → 1.875rem */
+            width: 80%;
+            border-radius: 1.875rem; /* 30px → 1.875rem */
+            font-size: 1.25rem; /* 20px → 1.25rem */
+            font-family: 'DM Sans', sans-serif;
+        }
+        label {
+            font-family: 'Koulen', sans-serif;
+            font-size: 2.25rem; /* 36px → 2.25rem */
+            display: block; 
+            margin-bottom: 0rem; /* 0px → 0rem (unchanged) */
+            margin-left: 3.75rem; /* 60px → 3.75rem */
+        }
